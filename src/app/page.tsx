@@ -1,18 +1,14 @@
-import Image from "next/image";
-import HomeImg from 'public/home.jpg';
+import HomeImg from "public/home.jpg";
+import Hero from "@/components/hero";
 
 export default function Home() {
   return (
     <div>
-      Home Page
-      <div className="absolute -z-10 inset-0">
-        <Image 
-          src={HomeImg} 
-          alt="car factory" 
-          fill
-          style={{ objectFit: 'cover'}}
-        />
-      </div>
+      <Hero
+        imgData={HomeImg}
+        imgAlt="car factory"
+        title="Professional Cloud Hosting"
+      />
     </div>
   );
 }
