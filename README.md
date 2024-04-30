@@ -42,7 +42,8 @@ src/
 │   ├── Reliability / Page.tsx
 │   └── Scale / Page.tsx
 ├── Components/
-│   ├── Header.js
+│   ├── Header.tsx
+│   └── Hero.tsx
 ├── public/
 │   ├── images/
 ├── .gitignore
